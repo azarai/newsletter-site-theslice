@@ -51,7 +51,7 @@ query {
 export default {
   metaInfo() {
     return {
-      title: "Thank You | " + $static.metadata.siteName,
+      title: "Thank You | " + this.$static.metadata.siteName,
     };
   },
 };

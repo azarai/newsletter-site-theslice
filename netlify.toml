@@ -1,0 +1,42 @@
+[template]
+    incoming-hooks = ["UpdateArchive"]
+
+[template.environment]
+    SITE_NAME=Name of your newsletter
+    SLOGAN=Your slogan -  added to site title
+    DESCRIPTION=HTML meta description for your site
+    LOGO=Full URL to your logo or base64 encoded data:uri
+
+    FRONT_HEADLINE=Headline on the front page
+    FRONT_SUBHEADLINE=Subheadline on the front page
+    FRONT_SOCIAL_PROOF=Social proof paragraph below the subscribe box
+
+    EMAIL_OCTOPUS_LIST_ID=ID of your list on email octopus
+    EMAIL_OCTOPUS_API_KEY=Your email octopus api key
+
+    THANKYOU_HEADLINE=Headline on the thank you page
+    THANKYOU_WELCOME=Welcome message on the thank you page. Can include simple HTML.
+
+    SOCIAL_TWITTER=Full URL to your twitter profile (Can be empty)
+    SOCIAL_EMAIL=Your eMail address (Can be empty)
+
+    TESTIMONIALS_HEADLINE=Headline for the testimonials section of the front page (if empty, testimonials are deactivated)
+    TESTIMONIAL_1_NAME=Name of the person
+    TESTIMONIAL_1_IMAGE=Profile image of this person
+    TESTIMONIAL_1_POSITION=Short info about this person
+    TESTIMONIAL_1_QUOTE=The actual testimonial
+
+    TESTIMONIAL_2_NAME=Testimonial #2
+    TESTIMONIAL_2_IMAGE=
+    TESTIMONIAL_2_POSITION=
+    TESTIMONIAL_2_QUOTE=
+
+    TESTIMONIAL_3_NAME=Testimonial #3
+    TESTIMONIAL_3_IMAGE=
+    TESTIMONIAL_3_POSITION=
+    TESTIMONIAL_3_QUOTE=
+
+    TESTIMONIAL_4_NAME=Testimonial #4
+    TESTIMONIAL_4_IMAGE=
+    TESTIMONIAL_4_POSITION=
+    TESTIMONIAL_4_QUOTE=
