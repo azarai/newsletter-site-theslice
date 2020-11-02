@@ -1,3 +1,7 @@
+[build]
+  command = "gridsome build"
+  publish = "dist"
+
 [template]
     incoming-hooks = ["UpdateArchive"]
 
