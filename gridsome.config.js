@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: process.env.SITE_NAME,
+  siteName: process.env.NEWSLETTER_NAME,
   siteDescription: process.env.DESCRIPTION,
   metadata: {
     slogan: process.env.SLOGAN || "",

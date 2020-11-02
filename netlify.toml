@@ -1,12 +1,12 @@
 [build]
-  command = "gridsome build"
-  publish = "dist"
+    command = "gridsome build"
+    publish = "dist"
 
 [template]
     incoming-hooks = ["UpdateArchive"]
 
 [template.environment]
-    SITE_NAME="Name of your newsletter"
+    NEWSLETTER_NAME="Name of your newsletter"
     SLOGAN="Your slogan -  added to site title"
     DESCRIPTION="HTML meta description for your site"
     LOGO="Full URL to your logo or base64 encoded data:uri"
@@ -25,22 +25,22 @@
     SOCIAL_EMAIL="Your eMail address (Can be empty)"
 
     TESTIMONIALS_HEADLINE="Headline for the testimonials section of the front page (if empty, testimonials are deactivated)"
-    TESTIMONIAL_1_NAME="Name of the person"
-    TESTIMONIAL_1_IMAGE="Profile image of this person"
-    TESTIMONIAL_1_POSITION="Short info about this person"
-    TESTIMONIAL_1_QUOTE="The actual testimonial"
+    TESTIMONIAL_1_NAME="Testimonial #1 Name"
+    TESTIMONIAL_1_IMAGE="Testimonial #1 Profile image"
+    TESTIMONIAL_1_POSITION="Testimonial #1  Short bio"
+    TESTIMONIAL_1_QUOTE="Testimonial #1 The actual testimonial"
 
-    TESTIMONIAL_2_NAME="Testimonial #2"
-    TESTIMONIAL_2_IMAGE=""
-    TESTIMONIAL_2_POSITION=""
-    TESTIMONIAL_2_QUOTE=""
+    TESTIMONIAL_2_NAME="Testimonial #2 Name"
+    TESTIMONIAL_2_IMAGE="Testimonial #2 Profile image"
+    TESTIMONIAL_2_POSITION="Testimonial #2  Short bio"
+    TESTIMONIAL_2_QUOTE="Testimonial #2 The actual testimonial"
 
-    TESTIMONIAL_3_NAME="Testimonial #3"
-    TESTIMONIAL_3_IMAGE=""
-    TESTIMONIAL_3_POSITION=""
-    TESTIMONIAL_3_QUOTE=""
+    TESTIMONIAL_3_NAME="Testimonial #3 Name"
+    TESTIMONIAL_3_IMAGE="Testimonial #3 Profile image"
+    TESTIMONIAL_3_POSITION="Testimonial #3  Short bio"
+    TESTIMONIAL_3_QUOTE="Testimonial #3 The actual testimonial"
 
-    TESTIMONIAL_4_NAME="Testimonial #4"
-    TESTIMONIAL_4_IMAGE=""
-    TESTIMONIAL_4_POSITION=""
-    TESTIMONIAL_4_QUOTE=""
+    TESTIMONIAL_4_NAME="Testimonial #4 Name"
+    TESTIMONIAL_4_IMAGE="Testimonial #4 Profile image"
+    TESTIMONIAL_4_POSITION="Testimonial #4  Short bio"
+    TESTIMONIAL_4_QUOTE="Testimonial #4 The actual testimonial"
