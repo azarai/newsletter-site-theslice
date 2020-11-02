@@ -1,0 +1,17 @@
+{
+  "name": "newsletter-site-starter",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.2.0",
+    "atomicjs": "^4.4.1",
+    "axios": "^0.21.0",
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-tailwindcss": "^3.0.1",
+    "node-html-parser": "^1.4.5"
+  }
+}
