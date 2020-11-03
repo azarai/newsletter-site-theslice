@@ -1,5 +1,5 @@
 ---
-slug: advertise
+slug: promote
 ---
 
 # Advertise on The Slice 📢
