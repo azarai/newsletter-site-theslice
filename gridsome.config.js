@@ -52,5 +52,15 @@ module.exports = {
       }
 
     },
-  ]
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'StaticPage',
+        path: './content/*.md',
+      }
+    }
+  ],
+  templates: {
+    StaticPage: '/:slug'
+  }
 }

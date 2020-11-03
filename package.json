@@ -7,6 +7,8 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.6.3",
     "@tailwindcss/typography": "^0.2.0",
     "atomicjs": "^4.4.1",
     "axios": "^0.21.0",

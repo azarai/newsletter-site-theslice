@@ -47,7 +47,7 @@
 
           <div class="text-center mt-5"> 
             <g-link to="/archive" class="text-xl text-gray-700 hover:text-blue-500 cursor-pointer">Past Issues</g-link>
-            <g-link to="/archive" class="ml-8 text-xl text-gray-700 hover:text-blue-500 cursor-pointer">Advertise</g-link>
+            <g-link to="/advertise" class="ml-8 text-xl text-gray-700 hover:text-blue-500 cursor-pointer">Advertise</g-link>
           </div>
         </div>
       </div>
